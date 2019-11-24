@@ -85,7 +85,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "prevent-stream-from-dying-on-error:build"
+            "browserTarget": "prevent-stream-from-dying-on-error:build",
+            "proxyConfig": "src/proxy.conf.json"
           },
           "configurations": {
             "production": {
